@@ -1,0 +1,121 @@
+.ProductBookCardTile {
+  box-shadow: 0px 2px 4px rgba(0, 144, 158, 0.1),
+    0px 3px 4px rgba(0, 144, 158, 0.1), 0px 1px 5px rgba(0, 144, 158, 0.1);
+  margin: 30px -7px 29px 26px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 470px;
+  width: 188px;
+  flex: none;
+}
+
+.ButtonTileBook,
+.ButtonTileBookFavorites {
+  background: #142850;
+  border-radius: 10px;
+  margin-top: 35px;
+  margin-left: 14px;
+  height: 40px;
+  width: 160px;
+  cursor: pointer;
+  border: none;
+  color: #dae1e7;
+}
+
+.ButtonTileBookFavorites {
+  background: #00909e;
+}
+
+.ImgBookTile {
+  border-radius: 15px;
+  margin-left: 7px;
+  height: 242px;
+  width: 174px;
+  padding: 8px;
+}
+
+.BookNameTile {
+  overflow: hidden;
+  word-wrap: break-word;
+  min-height: 30px;
+  max-height: 55px;
+  width: 160px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #363636;
+}
+
+.NameAuthorTile {
+  overflow: hidden;
+  word-wrap: break-word;
+  min-height: 20px;
+  max-height: 55px;
+  width: 160px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #727272;
+}
+
+.WrappBookAndAuthor {
+  margin-top: 25px;
+  height: 80px;
+}
+
+.ButtonTileBook:hover {
+  background: #334770;
+}
+
+@media (max-width: 768px) {
+  .ProductBookCardTile {
+    width: 211px;
+    margin: 30px -7px 29px 19px;
+    margin-left: 5px;
+  }
+
+  .ImgBookTile {
+    margin-left: 19px;
+  }
+
+  .ButtonTileBook,
+  .ButtonTileBookFavorites {
+    margin-left: 26px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .ProductBookCardTile {
+    margin: 30px 0px 29px 19px;
+  }
+}
+
+@media (width: 1024px) {
+  .ProductBookCardTile {
+    margin: 30px 10px 29px 30px;
+  }
+}
+
+@media (max-width: 540px) {
+  .ProductBookCardTile {
+    width: 210px;
+  }
+}
+
+@media (width: 820px) {
+  .ProductBookCardTile {
+    width: 254px;
+    margin-top: 20px;
+  }
+
+  .ImgBookTile {
+    margin-left: 27px;
+
+    height: 242px;
+    width: 200px;
+  }
+
+  .ButtonTileBook,
+  .ButtonTileBookFavorites {
+    margin-left: 47px;
+  }
+}

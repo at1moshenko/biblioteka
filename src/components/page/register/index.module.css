@@ -1,0 +1,79 @@
+.Wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #dae1e7;
+  text-align: center;
+}
+
+.error {
+  color: rgba(238, 10, 10);
+  position: absolute;
+  margin-top: -35px;
+  font-size: 0.8em;
+}
+
+.Parol,
+.Login {
+  border: 1px solid #2b6c72;
+  border-radius: 8px;
+  padding: 7px;
+  outline: none;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 45px;
+  color: #00909e;
+}
+
+.BtnOk {
+  width: 85px;
+  height: 30px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: #142850;
+  color: #dae1e7;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  opacity: 0.2;
+}
+
+.closeIcon:hover {
+  opacity: 1;
+}
+
+.form {
+  border-radius: 8px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  padding: 30px;
+  box-shadow: 0px 2px 4px rgba(0, 144, 158, 0.1),
+    0px 3px 4px rgba(0, 144, 158, 0.1), 0px 1px 5px rgba(0, 144, 158, 0.1);
+}
+
+.P {
+  margin-bottom: 5px;
+  color: #00909e;
+  text-align: start;
+}
+
+.h2 {
+  margin-bottom: 20px;
+  color: #142850;
+}
+
+.BtnOk:hover {
+  background: #334770;
+}

@@ -1,0 +1,227 @@
+.userPopup {
+  position: absolute;
+  top: 43px;
+  width: 115px;
+  background: whitesmoke;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px 0;
+  z-index: 55;
+}
+
+.favoritesAndExit {
+  width: 115px;
+  border: none;
+  cursor: pointer;
+  padding: 5px 20px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background: whitesmoke;
+  color: #00909e;
+  font-size: 16px;
+}
+
+.favoritesAndExit:hover {
+  background: #c0ceda;
+}
+
+.Header {
+  position: relative;
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  height: 58px;
+}
+
+.Biblioteka {
+  color: #142850;
+  margin-left: -1px;
+  margin-top: 37px;
+  width: 185px;
+  text-decoration: none;
+}
+
+.customLink {
+  text-decoration: none;
+}
+
+.Name {
+  background: whitesmoke;
+  color: #00909e;
+  transform: translateY(-50%);
+  position: absolute;
+  right: -5px;
+  top: 95%;
+  font-size: 17px;
+  height: 36px;
+  width: 115px;
+  border-radius: 10px;
+  padding-top: 6px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.Name:hover {
+  background: #c0ceda;
+}
+
+.BtnVhod,
+.BtnRegistration {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 10px 15px;
+  right: -5px;
+  top: 38px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  background: #142850;
+  color: #dae1e7;
+}
+
+.BtnVhod:hover,
+.BtnRegistration:hover {
+  background: #334770;
+}
+
+.BtnRegistration {
+  right: 80px;
+}
+
+@media (max-width: 1280px) {
+  .BtnVhod {
+    right: 3px;
+  }
+
+  .BtnRegistration {
+    right: 88px;
+  }
+
+  .Name {
+    right: 3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Name {
+    margin-right: 15px;
+  }
+
+  .Biblioteka {
+    margin-left: 19px;
+  }
+
+  .BtnVhod {
+    right: 31px;
+  }
+
+  .BtnRegistration {
+    right: 116px;
+  }
+}
+
+@media (width: 1024px) {
+  .Name {
+    right: 72px;
+  }
+
+  .BtnVhod {
+    right: 72px;
+  }
+
+  .BtnRegistration {
+    right: 157px;
+  }
+
+  .Biblioteka {
+    margin-left: 60px;
+  }
+}
+
+@media (width: 912px) {
+  .Name {
+    right: 12px;
+  }
+
+  .BtnVhod {
+    right: 12px;
+  }
+
+  .BtnRegistration {
+    right: 97px;
+  }
+
+  .Biblioteka {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 540px) {
+  .Biblioteka {
+    margin-left: 18px;
+  }
+
+  .Menu {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 134px;
+    left: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    background-image: url(../../img/headerBurgerMini.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media (min-width: 541px) {
+  .Menu {
+    display: none;
+  }
+}
+
+@media (max-width: 820px) {
+  .BtnVhod {
+    right: 16px;
+  }
+
+  .BtnRegistration {
+    right: 101px;
+  }
+
+  .Name {
+    right: 17px;
+  }
+
+  .Biblioteka {
+    margin-left: 23px;
+  }
+}
+
+@media (max-width: 414px) {
+  .Biblioteka {
+    margin-left: 14px;
+  }
+
+  .BtnRegistration,
+  .BtnVhod {
+    width: 70px;
+    margin-top: 3px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 393px) {
+  .Biblioteka {
+    margin-top: 46px;
+    margin-left: 15px;
+    font-size: 25px;
+  }
+}

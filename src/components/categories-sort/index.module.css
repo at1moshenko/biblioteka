@@ -1,0 +1,88 @@
+.li {
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  color: #00909e;
+}
+.liActive {
+  padding: 7px;
+  background: #6f6360;
+  cursor: pointer;
+}
+
+.li:hover {
+  background: #c0ceda;
+  border-radius: 5px;
+}
+
+.categories {
+  width: 200px;
+  margin-top: -2px;
+  overflow: hidden;
+  margin-right: 30px;
+}
+
+.P {
+  letter-spacing: 0.1px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  width: 231px;
+  height: 28px;
+  color: #f83600;
+}
+
+.A {
+  text-decoration: none;
+  color: black;
+  word-break: break-all;
+  cursor: pointer;
+}
+
+.A:hover {
+  color: #f83600;
+}
+
+.DivZagolovok {
+  position: absolute;
+  width: 255px;
+  height: 40px;
+  margin-top: 2px;
+}
+
+.Zagolovok {
+  font-weight: 700;
+  font-size: 18px;
+  color: #00909e;
+}
+
+.HR {
+  height: 1px;
+  border: none;
+  background: #142850;
+  margin-top: 18px;
+}
+
+@media (max-width: 540px) {
+  .categories {
+    height: 100%;
+  }
+}
+
+@media (width: 1024px) {
+  .categories {
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 912px) {
+  .categories {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .categories {
+    margin-left: 0;
+  }
+}
